@@ -21,4 +21,4 @@ spec:
           ports:
             - containerPort: 8080
       imagePullSecrets:
-        - name: harbor-pull-secret
+        - name: harbor-pull-secret2
