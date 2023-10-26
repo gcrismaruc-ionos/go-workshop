@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: quota
-          image: harbor.infra.cluster.ionos.com/paasis-dev/wb-group2/team4:latest
+          image: Sharbor.infra.cluster.ionos.com/paasis-dev/wb-group2/team4:latest
           ports:
             - containerPort: 8080
       imagePullSecrets:
