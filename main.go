@@ -13,5 +13,5 @@ func main() {
 	handler := server.Handler(&serverImplementation)
 
 	println("starting server")
-	http.ListenAndServe("localhost:8080", handler)
+	http.ListenAndServe(":8080", handler)
 }
