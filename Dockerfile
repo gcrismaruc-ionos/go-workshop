@@ -10,6 +10,9 @@ FROM gcr.io/distroless/base-debian11:nonroot
 
 COPY --from=builder /bin/service /bin/service
 
+
+# EXPOSE 8080
+
 EXPOSE 8080
 
 ENTRYPOINT ["/bin/service"]
